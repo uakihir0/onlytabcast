@@ -1,0 +1,17 @@
+{
+  "name": "OnlyTabCast",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "When a tab is ChoromeCast on a site such as Youtube or Twitch, the tab itself will be cast instead of being played in the app.",
+  "permissions": ["*://*/*/", "webRequest", "webRequestBlocking", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
