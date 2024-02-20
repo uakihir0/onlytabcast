@@ -12,5 +12,5 @@ MIT License
 
 ## Author
 
-[Akihiro Urushihara](https://github.com/uakihir0)
-X: [uakihir0](https://x.com/uakihir0)
+- [Akihiro Urushihara](https://github.com/uakihir0)
+- X: [uakihir0](https://x.com/uakihir0)
