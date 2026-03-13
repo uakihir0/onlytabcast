@@ -4,7 +4,18 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
-      "urlFilter": "||gstatic.com",
+      "urlFilter": "||www.gstatic.com/cv/js/sender/",
+      "initiatorDomains": ["youtube.com", "twitch.tv"],
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||www.gstatic.com/eureka/",
+      "initiatorDomains": ["youtube.com", "twitch.tv"],
       "resourceTypes": ["script"]
     }
   }
