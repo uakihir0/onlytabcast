@@ -18,5 +18,15 @@
       "initiatorDomains": ["youtube.com", "twitch.tv"],
       "resourceTypes": ["script"]
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||www.gstatic.com/cast/sdk/libs/sender/",
+      "initiatorDomains": ["youtube.com", "twitch.tv"],
+      "resourceTypes": ["script"]
+    }
   }
 ]
